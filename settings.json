@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(gh issue view:*)",
+      "Bash(gh pr view:*)",
+      "Bash(gh pr diff:*)",
+      "Bash(php -l:*)",
+      "Bash(git fetch:*)",
+      "Bash(npx mongodb-runner:*)",
+      "Bash(mkdir -p ~/.mongodb:*)",
+      "Bash(curl -sL https://fastdl.mongodb.org:*)",
+      "Bash(~/.claude/scripts/mongodb-test-matrix.sh:*)"
+    ]
+  },
+  "enabledPlugins": {
+    "clangd-lsp@claude-plugins-official": true,
+    "mongodb@claude-plugins-official": true
+  }
+}
