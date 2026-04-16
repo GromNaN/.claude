@@ -24,7 +24,7 @@ claude mcp add-json jira '{
     "JIRA_URL": "https://jira.mongodb.org",
     "JIRA_PERSONAL_TOKEN": "<YOUR_PAT>"
   }
-}'
+}' --scope user
 ```
 
 Replace `<YOUR_USER>` with your macOS username and `<YOUR_PAT>` with your token.
